@@ -23,7 +23,7 @@ public class DemoOnTestNg {
 	}
 	@Test(priority=3)
 	public void Mul() {
-		System.out.println("In Maven Test Mul");
+		
 		int a=30;
 		int b=20;
 		Assert.assertEquals(600, a*b);
