@@ -5,6 +5,8 @@ import org.testng.annotations.Test;
 
 public class DemoOnTestNg {
 	
+	//Checking update commit into git
+	
 	@Test(priority=1,description="...Sum Method in TestNG...")
 	public void sum() {
 		System.out.println("In Maven Test Add");
