@@ -28,5 +28,13 @@ public class DemoOnTestNg {
 		int b=20;
 		Assert.assertEquals(600, a*b);
 	}
+	
+	@Test(priority=3)
+	public void Div() {
+		
+		int a=30;
+		int b=30;
+		Assert.assertEquals(600, a/b);
+	}
 
 }
